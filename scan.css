@@ -1,0 +1,213 @@
+/* Scan Page Styles */
+.scan-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin-left: -30px;
+  }
+  
+  .scan-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .scan-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    width: 500px;
+    height: 910px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px 20px rgba(22, 142, 189, 0.281);
+    font-family: 'Arial', sans-serif;
+    margin-left: -90px;
+  }
+  
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 50px;
+    border: none;
+    background-color: red;
+    display: inline-block;
+  }
+
+  .capture-button{
+    border-radius: 100px;
+    margin-left: 100px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.in-btn {
+    background-color: #28a745;
+    width: 100px;
+  }
+  
+  button.out-btn {
+    background-color: #dc3545;
+  }
+  
+  button.in-btn:hover {
+    background-color: #218838;
+  }
+  
+  button.out-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .scanner-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .scanner-message {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .scan-result, .status-message {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .history-btn,
+  .logout-btn {
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 280px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    margin-left: 80px;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .toggle-camera button {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 100px;
+  }
+  
+  .toggle-camera button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .history-btn:hover,
+  .logout-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 480px) {
+    .scan-container {
+      padding: 30px;
+      margin: 20px;
+      width: 300px;
+      margin-left: 10px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    button {
+      font-size: 1.1rem;
+      padding: 8px 20px;
+      background-color: rgb(173, 194, 77);
+      font-size: 20px;
+    }
+
+    .scan{
+      border-radius: 200px;
+      padding: 30px;
+      margin-left: 70px;
+      border: 1px solid black;
+      background-color: #c82333;
+    }
+  
+    .scanner-message {
+      font-size: 1.1rem;
+    }
+  
+    .scan-result,
+    .status-message {
+      font-size: 1rem;
+    }
+  
+    .history-btn {
+      width: 100%;
+      font-size: 1.1rem;
+      margin-left: 3px;
+    }
+
+    .logout-btn{
+      margin-left: 50px;
+    }
+    .capture-button{
+      border-radius: 100px;
+      margin-left: 10px;
+    }
+
+    .toggle-camera button {
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .scan-container {
+      height: 90vh; /* Adjust for smaller screens */
+      padding: 20px;
+    }
+  }
+  
+  
